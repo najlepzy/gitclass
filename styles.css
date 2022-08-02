@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, #E3D2C4, #FCFCFB);
+}
+/* logo */
+header{
+    margin:auto;
+    height: 6rem;
+    width: 100%;
+    background-color: #9A8478;
+    border: 1px solid #8b6750;
+}
+.container h2{
+    padding-top: .2em;
+    padding-left: .3em;
+    color: #1E130C;
+    font-size: 4rem;
+    text-transform: uppercase;
+    float:left;
+}
+.container span{
+    color: white;
+    text-shadow: 2px 1px black;
+}
+/* logo */
+/* barra de nav */
+.navbar {
+    position:relative;
+}
+.barra li{
+    float: right;
+    display: inline-block;
+padding: 2.4em 5em 0;
+}
+ .barra a{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    text-shadow: 2px 2px #8b6750;
+}
+.barra a:hover{
+    color: #36261a;
+}
+/* barra de nav */
